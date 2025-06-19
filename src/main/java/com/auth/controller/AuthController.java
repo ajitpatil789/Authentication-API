@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "https://heartfelt-blancmange-de144e.netlify.app")
 public class AuthController {
 
     @Autowired
